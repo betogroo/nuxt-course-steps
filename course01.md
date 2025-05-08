@@ -61,11 +61,11 @@ _on this moment we note a different text formatting_
 ```
 <template>
   <v-app full-height>
-    <div class="d-flex justify-end align-center mr-4">
+    <nav class="d-flex justify-end align-center mr-4">
       <nuxt-link to="/">Home</nuxt-link>
       <div class="ma-1">|</div>
       <nuxt-link to="/about">About</nuxt-link>
-    </div>
+    </nav>
 
     <v-main>
       <v-container>
