@@ -15,7 +15,7 @@ npx nuxi@latest init <project-name>
 - chose npm or your favorite package manager
 - chose only eslint (optional)
   - if do not chose eslint:
-  ```bash
+```bash
 npm install @nuxt/eslint@latest -D --ignore-scripts
 ```
 add `modules: ['@nuxt/eslint'],`
